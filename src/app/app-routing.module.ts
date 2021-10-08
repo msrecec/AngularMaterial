@@ -8,6 +8,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
 import { CheckandradioComponent } from './checkandradio/checkandradio.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { DialogComponent } from './dialog/dialog.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { GridsComponent } from './grids/grids.component';
 import { IconsComponent } from './icons/icons.component';
@@ -46,6 +47,7 @@ const routes: Routes = [
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'tooltip', component: TooltipComponent },
   { path: 'snackbar', component: SnackbarComponent },
+  { path: 'dialog', component: DialogComponent },
 ];
 
 @NgModule({
