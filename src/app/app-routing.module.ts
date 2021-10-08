@@ -19,6 +19,7 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
@@ -42,6 +43,7 @@ const routes: Routes = [
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'check-and-radio', component: CheckandradioComponent },
   { path: 'datepicker', component: DatepickerComponent },
+  { path: 'tooltip', component: TooltipComponent },
 ];
 
 @NgModule({
