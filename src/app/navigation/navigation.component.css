@@ -2,6 +2,10 @@
   justify-content: space-between;
 }
 
+.navbar {
+  width: 100% !important;
+}
+
 a {
   padding-right: 1rem;
   color: white !important;

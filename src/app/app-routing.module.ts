@@ -17,6 +17,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { SnackbarComponent } from './snackbar/snackbar.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -44,6 +45,7 @@ const routes: Routes = [
   { path: 'check-and-radio', component: CheckandradioComponent },
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'tooltip', component: TooltipComponent },
+  { path: 'snackbar', component: SnackbarComponent },
 ];
 
 @NgModule({
