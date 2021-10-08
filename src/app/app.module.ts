@@ -24,6 +24,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { InputComponent } from './input/input.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { CheckandradioComponent } from './checkandradio/checkandradio.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
     StepperComponent,
     InputComponent,
     AutocompleteComponent,
+    CheckandradioComponent,
   ],
   imports: [
     BrowserModule,
