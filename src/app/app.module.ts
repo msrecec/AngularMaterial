@@ -20,6 +20,7 @@ import { ListComponent } from './list/list.component';
 import { GridsComponent } from './grids/grids.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { CardsComponent } from './cards/cards.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CardsComponent } from './cards/cards.component';
     GridsComponent,
     ExpansionPanelComponent,
     CardsComponent,
+    TabsComponent,
   ],
   imports: [
     BrowserModule,

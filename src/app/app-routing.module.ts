@@ -13,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { TabsComponent } from './tabs/tabs.component';
 import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'grids', component: GridsComponent },
   { path: 'expansion-panel', component: ExpansionPanelComponent },
   { path: 'cards', component: CardsComponent },
+  { path: 'tabs', component: TabsComponent },
 ];
 
 @NgModule({
