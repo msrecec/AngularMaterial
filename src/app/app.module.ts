@@ -9,9 +9,10 @@ import { TypographyComponent } from './typography/typography.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
+import { IconsComponent } from './icons/icons.component';
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, NavigationComponent, ButtonsComponent, ButtonToggleComponent],
+  declarations: [AppComponent, TypographyComponent, NavigationComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
