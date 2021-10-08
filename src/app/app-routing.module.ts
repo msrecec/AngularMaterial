@@ -20,6 +20,7 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { StepperComponent } from './stepper/stepper.component';
+import { TableDynamicArrayDataExample } from './table-dynamic-array-data-example/table-dynamic-array-data-example.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { TypographyComponent } from './typography/typography.component';
@@ -48,6 +49,7 @@ const routes: Routes = [
   { path: 'tooltip', component: TooltipComponent },
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'dialog', component: DialogComponent },
+  { path: 'data-table', component: TableDynamicArrayDataExample },
 ];
 
 @NgModule({

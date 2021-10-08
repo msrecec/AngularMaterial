@@ -33,6 +33,7 @@ import {
 } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogExampleComponent } from './dialog-example/dialog-example.component';
+import { TableDynamicArrayDataExample } from './table-dynamic-array-data-example/table-dynamic-array-data-example.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { DialogExampleComponent } from './dialog-example/dialog-example.componen
     CustomSnackBarComponent,
     DialogComponent,
     DialogExampleComponent,
+    TableDynamicArrayDataExample,
   ],
   imports: [
     BrowserModule,
