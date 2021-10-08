@@ -7,6 +7,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { IconsComponent } from './icons/icons.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'badges', component: BadgesComponent },
   { path: 'progress-spinner', component: ProgressSpinnerComponent },
   { path: 'navbar', component: NavbarComponent },
+  { path: 'sidenav', component: SidenavComponent },
 ];
 
 @NgModule({

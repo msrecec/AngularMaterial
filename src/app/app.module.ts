@@ -13,14 +13,28 @@ import { IconsComponent } from './icons/icons.component';
 import { BadgesComponent } from './badges/badges.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, NavigationComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent, ProgressSpinnerComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    TypographyComponent,
+    NavigationComponent,
+    ButtonsComponent,
+    ButtonToggleComponent,
+    IconsComponent,
+    BadgesComponent,
+    ProgressSpinnerComponent,
+    NavbarComponent,
+    SidenavComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
