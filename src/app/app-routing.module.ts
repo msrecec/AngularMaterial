@@ -7,6 +7,7 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
 import { CheckandradioComponent } from './checkandradio/checkandradio.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { GridsComponent } from './grids/grids.component';
 import { IconsComponent } from './icons/icons.component';
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'input', component: InputComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'check-and-radio', component: CheckandradioComponent },
+  { path: 'datepicker', component: DatepickerComponent },
 ];
 
 @NgModule({
