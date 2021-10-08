@@ -8,6 +8,7 @@ import { CardsComponent } from './cards/cards.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { GridsComponent } from './grids/grids.component';
 import { IconsComponent } from './icons/icons.component';
+import { InputComponent } from './input/input.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'cards', component: CardsComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'stepper', component: StepperComponent },
+  { path: 'input', component: InputComponent },
 ];
 
 @NgModule({
