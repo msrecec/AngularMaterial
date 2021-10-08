@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { BadgesComponent } from './badges/badges.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { CardsComponent } from './cards/cards.component';
 import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 import { GridsComponent } from './grids/grids.component';
 import { IconsComponent } from './icons/icons.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'list', component: ListComponent },
   { path: 'grids', component: GridsComponent },
   { path: 'expansion-panel', component: ExpansionPanelComponent },
+  { path: 'cards', component: CardsComponent },
 ];
 
 @NgModule({
