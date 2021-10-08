@@ -10,9 +10,10 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { IconsComponent } from './icons/icons.component';
+import { BadgesComponent } from './badges/badges.component';
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, NavigationComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent],
+  declarations: [AppComponent, TypographyComponent, NavigationComponent, ButtonsComponent, ButtonToggleComponent, IconsComponent, BadgesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
